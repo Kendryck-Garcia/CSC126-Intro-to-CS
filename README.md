@@ -6,6 +6,7 @@
 ![Assignments](https://img.shields.io/badge/Assignments-22%20Completed-brightgreen.svg)
 ![Status](https://img.shields.io/badge/Coursework-Completed-success.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Kendryck-Garcia/CSC126-Intro-to-CS)
 
 ---
 
@@ -108,6 +109,15 @@ Through 22 practical projects, I progressed from foundational syntax and I/O han
 
 ## 🛠️ Build & Execution Guide
 
+### ☁️ Run Live in Browser (Zero Installation)
+You can compile and run any assignment immediately without installing a compiler locally:
+1. Click the **[Open in GitHub Codespaces](https://codespaces.new/Kendryck-Garcia/CSC126-Intro-to-CS)** badge.
+2. In the cloud terminal that appears, compile and run any file:
+   ```bash
+   g++ 16_MotionAnalysis.cpp && ./a.out
+   ```
+
+### 💻 Local Compilation
 Each program is self-contained and conforms to standard modern C++ (C++11/14/17/20).
 
 ### Using GCC / G++ (Linux, macOS, MinGW on Windows)

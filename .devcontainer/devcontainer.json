@@ -1,0 +1,12 @@
+{
+  "name": "C++ (CSC 126 Environment)",
+  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools"
+      ]
+    }
+  }
+}
+
