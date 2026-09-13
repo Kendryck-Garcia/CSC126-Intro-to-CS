@@ -7,9 +7,10 @@ using namespace std;
 int main() {
     const int SIZE = 12;
     int arr[SIZE];
-    ifstream file("C:/Users/garci/OneDrive/Computer Science/Lab 6.2/numbers.txt");
+    ifstream file("numbers.txt");
 
     if (!file) {
+        cerr << "Error: Could not open numbers.txt" << endl;
         return 1;
     }
 
